@@ -1,3 +1,4 @@
+/* ***** ***** Font Embedding ***** ***** */
 @font-face {
     font-family: 'HankenGrotesk';
     font-display: swap;
@@ -6,6 +7,7 @@
         format('truetype');
 }
 
+/* ***** ***** Custom Properties ***** ***** */
 :root {
     --clr-primary-hsl-400: 252, 100%, 67%;
     --clr-primary-hsl-500: 256, 72%, 46%;
@@ -54,6 +56,7 @@
     --fs-900: 5rem;
   }
 
+/* ***** ***** CSS Reset ***** ***** */
 *,
 *::before,
 *::after {
@@ -71,6 +74,7 @@ svg {
     max-width: 100%;
 }
 
+/* ***** ***** General Styling ***** ***** */
 body {
     font-family: var(--font-family-default);
     font-size: var(--fs-400);
@@ -113,6 +117,8 @@ body {
     background: var(--gradient-primary);
 }
 
+
+/* ***** ***** Precise Sectional Style ***** ***** */
 .result-summary {
     --border-radius: 2rem;
     --padding: 2.5rem;
@@ -120,8 +126,6 @@ body {
     max-width: 46rem;
     display: grid;
 }
-
-
 
 .result {
     background:var(--gradient-primary);
@@ -199,6 +203,7 @@ body {
 }
 
 
+/* ***** ***** Responsiveness ***** ***** */
 @media (min-width: 600px) {
     body {
         min-height: 100vh;
