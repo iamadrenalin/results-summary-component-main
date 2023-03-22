@@ -139,7 +139,8 @@ body {
     background: var(--gradient-to-transparent);
     border-radius: 50%;
     width: 10rem;
-    height: 10rem;
+    height: 26vh;
+    aspect-ratio: 1 / 1;
     margin: auto;
     display: grid;
     place-content: center;
